@@ -1,12 +1,11 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Learning privatized representations of data using Information theoretic measures
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Training ML models to learn encodings to provide privacy with respect to sensitive labels
+* Comparing and evaluating multiple information theoretic measures (Sibson mutual information, mutual information, KL-divergence, Arimoto mutual information)
 
 ### How do I get set up? ###
 Install
@@ -19,13 +18,10 @@ progressbar,
 scipy
 
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
+* Run synthetic data generation from synth/data_gen.py
+* Models for MNIST data can be run from mnist_privacy.py
+* FERG data requires downloading the FERG data and preprocessing it with ferg_preproc.py
+* Models for FERG data can be run from ferg_privacy.py
 ### Contribution guidelines ###
 
 * Writing tests
