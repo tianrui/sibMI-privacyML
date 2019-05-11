@@ -1,0 +1,4 @@
+KL = np.average(chatv*np.log(chatv/prior)) + np.average((1.0-chatv) * np.log((1.0-chatv)/(1.0-np.array(prior)))) 
+
+
+sibMI = order/(order-1) * np.log(np.average(chatv**order)**(1.0/order) + np.average((1.0-chatv)**order)**(1.0/order))
