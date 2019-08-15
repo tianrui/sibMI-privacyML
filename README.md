@@ -29,6 +29,7 @@ scipy
 * Other guidelines
 
 ### Who do I talk to? ###
-Tianrui Xiao, tianrui.xiao@mail.utoronto.ca
+Tianrui Xiao, tianrui.xiao.ray@gmail.com
+Joint work with Ashish Khisti, University of Toronto
 * Repo owner or admin
 * Other community or team contact
